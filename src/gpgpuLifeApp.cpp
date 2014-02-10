@@ -21,7 +21,7 @@ void gpgpuLifeApp::setup(){
         ofBackground(0, 0, 0);
         mBuffers[i].end();
     }
-    mLifeShader.load("shaders/life.vs","shaders/life.fs");
+    mLifeShader.load("shaders/life.vert","shaders/life.frag");
 }
 
 //--------------------------------------------------------------

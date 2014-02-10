@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F2B2EED18A890060021B967 /* life.fs in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2EEB18A890060021B967 /* life.fs */; };
-		9F2B2EEE18A890060021B967 /* life.vs in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2EEC18A890060021B967 /* life.vs */; };
+		9F2B2EED18A890060021B967 /* life.frag in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2EEB18A890060021B967 /* life.frag */; };
+		9F2B2EEE18A890060021B967 /* life.vert in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2EEC18A890060021B967 /* life.vert */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -62,8 +62,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9F2B2EEB18A890060021B967 /* life.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = life.fs; sourceTree = "<group>"; };
-		9F2B2EEC18A890060021B967 /* life.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = life.vs; sourceTree = "<group>"; };
+		9F2B2EEB18A890060021B967 /* life.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = life.frag; sourceTree = "<group>"; };
+		9F2B2EEC18A890060021B967 /* life.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = life.vert; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -129,8 +129,8 @@
 		9F2B2EEA18A890060021B967 /* shaders */ = {
 			isa = PBXGroup;
 			children = (
-				9F2B2EEB18A890060021B967 /* life.fs */,
-				9F2B2EEC18A890060021B967 /* life.vs */,
+				9F2B2EEB18A890060021B967 /* life.frag */,
+				9F2B2EEC18A890060021B967 /* life.vert */,
 			);
 			path = shaders;
 			sourceTree = "<group>";
@@ -309,9 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2B2EED18A890060021B967 /* life.fs in Sources */,
+				9F2B2EED18A890060021B967 /* life.frag in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				9F2B2EEE18A890060021B967 /* life.vs in Sources */,
+				9F2B2EEE18A890060021B967 /* life.vert in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* gpgpuLifeApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
